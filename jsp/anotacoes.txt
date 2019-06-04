@@ -1,0 +1,19 @@
+﻿
+                                                Informações mais relevantes
+
+-Projeto feito utilizando servidor tomcat 8.5.41
+
+-Banco de dados mysql versão 5.7
+
+-Banco criado a partir do hibernate
+-Usuario e senha utilizado na configuração do hibernate : usuario: root , senha:toor
+-nome do banco de dados processospatentes
+
+-acesso através: http://localhost:8080/jsp/
+
+-Uso de bootsrap v4.3.1 para estilização
+
+-Compatibilidade testada nos navegadores: chrome-última versão, firefox-última versão, edge-ultima versão
+
+
+

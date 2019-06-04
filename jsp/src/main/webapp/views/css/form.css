@@ -1,0 +1,6 @@
+.inputfield {
+	height: 200px;
+	widht: 100px;
+	word-wrap: break-word;
+	word-break: break-all;
+}

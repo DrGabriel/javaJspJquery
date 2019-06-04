@@ -1,0 +1,39 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CadastroServlet</servlet-name>
+  	
+  	
+  	<servlet-class>jsp.wipo.controller.servlets.CadastroServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PaginaPrincipalServlet</servlet-name>
+  	
+  	
+  	<servlet-class>jsp.wipo.controller.servlets.PaginaPrincipalServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>BuscaServlet</display-name>
+  	<servlet-name>BuscaServlet</servlet-name>
+  	<servlet-class>jsp.wipo.controller.servlets.BuscaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CadastroServlet</servlet-name>
+  	<url-pattern>/Cadastro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PaginaPrincipalServlet</servlet-name>
+  	<url-pattern>/PaginaPrincipal</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BuscaServlet</servlet-name>
+  	<url-pattern>/Busca</url-pattern>
+  </servlet-mapping>
+</web-app>
