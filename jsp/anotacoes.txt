@@ -5,7 +5,7 @@
 
 -Database mysql 5.7
 
--Usuario e senha utilizado na configuração do hibernate : usuario: root , senha:toor
+-Db user: root , pass:toor
 -Database name processospatentes
 
 -Entry point: http://localhost:8080/jsp/
