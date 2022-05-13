@@ -1,13 +1,13 @@
 # javaJspJquery
 
-Projeto feito utilizando:
+Tech stack:
 
 -Jquery AJAX
 -Bootsrap
--Java com Servlets e JSP
+-Java Servlets and JSP
 -Hibernate
 -Mysql
 
-#Objetivo do projeto
+#Project goal
 
-Construção de um web crawler que pega dados do WIPO, salva e lista os dados presentes no banco de dados.
+Build a web crawler to fetch data from WIPO, it can save and list data
